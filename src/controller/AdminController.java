@@ -80,7 +80,7 @@ public class AdminController {
 					BACKEND_ADMIN.addCar();
 					break;
 				case GET_DETAIL_ON_ID:
-					
+					BACKEND_ADMIN.printCustomerDetailOnId();
 					break;
 				case GET_CUSTOMER_DETAIL:
 					BACKEND_ADMIN.printCustomer();
